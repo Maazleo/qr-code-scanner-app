@@ -1,16 +1,146 @@
-# qrcodescanner
+# QR Code Scanner & Generator
 
-A new Flutter project.
+<div align="center">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart">
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white" alt="iOS">
+  <img src="https://img.shields.io/badge/Web-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white" alt="Web">
+</div>
 
-## Getting Started
+<div align="center">
+  <h3>A powerful Flutter application for scanning and generating QR codes</h3>
+</div>
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### QR Code Scanning
+- **Camera Scanning**: Scan QR codes in real-time using your device camera
+- **Gallery Scanning**: Import and scan QR codes from your image gallery
+- **Fast Detection**: Quick and accurate QR code detection
+- **Multiple Formats**: Support for various QR code formats and data types
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### QR Code Generation
+- **Create Custom QR Codes**: Generate QR codes for:
+  - URLs
+  - Text
+  - Email addresses
+  - Phone numbers
+  - And more!
+- **Save Generated QR Codes**: Save QR codes to your preferred location
+- **Customization Options**: Choose size and colors for your QR codes
+
+### History & Management
+- **Scan History**: Access all previously scanned QR codes
+- **Organize**: Sort and filter your QR code history
+- **Quick Actions**: Easily share or revisit scanned content
+
+### User Experience
+- **Modern UI**: Clean, intuitive interface with Material Design 3
+- **Dark Mode Support**: Comfortable viewing in any lighting condition
+- **Cross-Platform**: Works on Android, iOS, and Web
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (latest version recommended)
+- Android Studio / Xcode for mobile deployment
+- Web browser for web deployment
+
+### Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/Maazleo/qr-code-scanner-app.git
+```
+
+2. Navigate to the project folder:
+```bash
+cd qr-code-scanner-app
+```
+
+3. Install dependencies:
+```bash
+flutter pub get
+```
+
+4. Run the app:
+```bash
+flutter run
+```
+
+---
+
+## 📚 Libraries Used
+
+- **mobile_scanner**: For QR code scanning using camera
+- **qr_flutter**: For generating QR codes
+- **image_picker**: For selecting images from gallery
+- **shared_preferences**: For storing scan history
+- **url_launcher**: For opening URLs from QR codes
+- **file_picker**: For selecting where to save QR codes
+- **google_fonts**: For beautiful typography
+- **flutter_riverpod**: For state management
+
+---
+
+## 📋 Usage Guide
+
+### Scanning a QR Code with Camera
+1. Open the app and tap on "Scan QR Code"
+2. Point your camera at the QR code
+3. The app will automatically detect and process the QR code
+4. View the result and take action (open URL, copy text, etc.)
+
+### Scanning from Gallery
+1. Tap on "Scan from Gallery"
+2. Select an image containing a QR code
+3. The app will process the image and extract QR code data
+
+### Generating a QR Code
+1. Tap on "Generate QR Code"
+2. Enter the data you want to encode
+3. Customize appearance if desired
+4. Tap "Generate"
+5. Save or share your QR code
+
+### Viewing History
+1. Tap on "History" to see all previously scanned codes
+2. Tap any item to view details or re-use the data
+
+---
+
+## 🛠️ Technical Details
+
+This app is built with Flutter, providing a cross-platform experience with a single codebase. It utilizes several key technologies:
+
+- **State Management**: Flutter Riverpod for efficient state handling
+- **Local Storage**: SharedPreferences for persistent data
+- **Native Features**: Camera access, file system integration
+- **UI Framework**: Material 3 design system
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## 👨‍💻 Author
+
+**Maaz Masroor**
+
+- GitHub: [Maazleo](https://github.com/Maazleo)
+- Portfolio: [Maaz Portfolio](https://maazmasroor-portfolio.netlify.app/)
+- LinkedIn: [Muhammad Maaz](https://www.linkedin.com/in/muhammad-maaz-9b134a251)
+
+---
+
+<div align="center">
+  <p>If you found this project helpful or interesting, please consider giving it a star! ⭐</p>
+</div>
