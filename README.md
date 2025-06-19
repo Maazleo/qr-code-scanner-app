@@ -1,7 +1,6 @@
 # QR Code Scanner & Generator
-## Run and Use-> ## 🌐 Live Demo
-
-[Click here to view the live site](https://qrscanandgenerator.netlify.app)
+## 🌐 Live Demo
+[Run and see](https://qrscanandgenerator.netlify.app)
 
 <div align="center">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
