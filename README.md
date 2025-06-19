@@ -14,6 +14,18 @@
 
 ---
 
+## 📥 Download
+
+<div align="center">
+  <a href="https://github.com/Maazleo/qr-code-scanner-app/releases/download/v1.0.0/qr-code-scanner-app.apk">
+    <img src="https://img.shields.io/badge/Download APK-4285F4?style=for-the-badge&logo=android&logoColor=white" alt="Download APK">
+  </a>
+</div>
+
+> Note: You can download the latest APK from the [Releases](https://github.com/Maazleo/qr-code-scanner-app/releases) page.
+
+---
+
 ## 📱 Features
 
 ### QR Code Scanning
